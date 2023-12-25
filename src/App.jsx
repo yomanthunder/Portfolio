@@ -13,6 +13,8 @@ import {
 } from "./components";
 
 const App = () => {
+  // bg-hero-pattern bg-cover bg-no-repeat bg-center help me to
+  //reference the pre-defined background image,ensures the image covers the entire element
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">

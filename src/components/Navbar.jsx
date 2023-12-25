@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  //writing code for both mobile and web navigation here
   return (
     <nav
       className={`${
@@ -43,10 +43,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-13 h-13 object-contain" />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Adrian &nbsp;
-            <span className="sm:block hidden"> | JavaScript Mastery</span>
+            Shrishvesh &nbsp;
+            <span className="sm:block hidden"> | Personal Portfolio</span>
           </p>
         </Link>
 
