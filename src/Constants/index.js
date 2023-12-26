@@ -198,28 +198,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Decentralised Carpool",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage car pooling rides from various providers, providing a convenient, decentralized and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MDGSpace-SoC-2023/thunder",
   },
   {
-    name: "Job IT",
+    name: "Crowd Funding",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -228,16 +228,17 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Hardhat",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/yomanthunder/Crowdfunding-ERC20-contract",
   },
   {
     name: "Trip Guide",
@@ -258,7 +259,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "hhttps://github.com/yomanthunder/Torist-website",
   },
 ];
 
